@@ -107,22 +107,30 @@
         });
 
       const swiperSecundario = new Swiper('.carrossel-secundario', {
-             spaceBetween: 10,
+             spaceBetween: 0,
              slidesPerView: 1,
             
           pagination: {
-          el: '.swiper-pagination',
+          el: '.swiper-pagination carrossel-secundario',
           type: 'none',
       },
       });
          </script>
 
  <footer class="rodape">
-            <img class="imagem-rodape" src="assests/Home.svg" alt="ícone de casa">
-            <a href="#">Home</a>
-            <img class="imagem-rodape" src="assests/Explore.svg" alt="explorar">
-            <a href="#">Explore</a>
+        <ul class="botoes-lista">
+            <li class="botao">
+                <img class="imagem-rodape" src="assests/Home.svg" alt="ícone de casa">
+                <a class="rodape-texto" href="#">Home</a>
+            </li>
+        <li class="botao">
+            <img class="imagem-rodape-ex" src="assests/Explore.svg" alt="explorar">
+            <a class="rodape-texto-ex" href="#">Explore</a>
+        </li>
+        <li class="botao-download">
             <button>Download</button>
+        </li>
+        </ul>
         </footer>
  </body>
 

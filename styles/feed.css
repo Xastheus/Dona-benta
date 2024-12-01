@@ -150,5 +150,44 @@ strong {
 
 .rodape {
     display: flex;
-    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.botoes-lista {
+    display: flex;
+}
+
+.botao {
+    display: flex;
+    padding: 0 2em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-texto, .rodape-texto-ex {
+    text-decoration: none;
+    padding-top: 0.4em;
+    color: var(--azul);
+}
+
+.rodape-texto-ex {
+    color: var(--cinza);
+}
+
+.imagem-rodape {
+    width: 60%;
+}
+
+.imagem-rodape-ex {
+    width: 45%;
+}
+
+button {
+    border: 1px solid var(--azul);
+    border-radius: 16px;
+    border-width: 3vw;
+    font-family: var(--fonte-secundaria);
+    background: var(--azul);
+    font-size: 16px;
+    color: var(--branco);
 }
