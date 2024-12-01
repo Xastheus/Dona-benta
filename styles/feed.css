@@ -90,18 +90,17 @@ strong {
 
 
 
-.swiper-secundario {
+.carrossel-secundario {
     display: flex;
-    width: 50%;
+    width: 80%;
     height: auto;
-    margin-right: 15em;
     
 }
 
 .daily-mixes {
     background: #C1E3FF;
     border-radius: 30px;
-    width: 100%;
+    height: 50vw;
 }
 
 .conteudo-carrossel-secundario {
@@ -117,7 +116,6 @@ strong {
     font-size: 22px;
     color: var(--preto);
     padding-top: 1em;
-    padding-right: 1em;
 }
 
 
@@ -129,18 +127,20 @@ strong {
 }
 
 .soundbar {
-    margin: 0em 3em;
-    width: 50%;
+    width: 80%;
+    margin-left: 2em;
 }
 
 .play-pause {
     display: flex;
-    padding: 1em 1em;
+    width: 55%;
+    padding-top: 1em;
+    margin-left: 4em;
 }
 
 .imagem-sounds {
-    padding: 0 1em;
-    width: 30%;
+    margin: 0 1em;
+    width: 15%;
 }
 
 .rosa {
