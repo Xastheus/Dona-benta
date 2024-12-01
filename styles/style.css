@@ -1,0 +1,79 @@
+@import url("./feed.css");
+@import url("./reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Amiko:wght@400;600;700&display=swap');
+:root {
+    --fonte-principal: "Amiko", sans-serif;
+    --fonte-secundaria: "ABeeZee", sans-serif;
+    --branco: #F5F5F5;
+    --cinza: #77717D;
+    --azul: #25347C;
+    --preto: #0D0E10;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+}
+
+.receitas-imagens {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    width: 100%;
+}
+
+.logo-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.titulo {
+    font-size: 20px;
+    padding-top: 1em;
+}
+
+.subtitulo {
+    font-size: 14px;
+}
+
+.botoes-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+    font-size: 18px;
+}
+
+.botoes-login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.botao-login {
+    padding: 0.5em 0;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    background-color: var(--azul);
+    color: var(--branco);
+    text-decoration: none;
+    margin: 1em 0;
+    width: 30vw;
+}
+
+.botao-cadastro {
+    color: var(--azul);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+}

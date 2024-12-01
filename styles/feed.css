@@ -1,0 +1,154 @@
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--preto);
+}
+
+.swiper {
+    display: flex;
+    width: 80%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    background: #073FF5;
+    border-radius: 24px;
+    height: 40vw;
+}
+
+.amarelo {
+    background: #F7E853;
+    color: black;
+}
+
+.verde {
+    background: #CAFB5C;
+}
+
+.disco-imagem {
+    padding-top: 1em;
+    padding-left: 1em;
+    width: 25%;
+}
+
+.carrossel-texto {
+    color: var(--branco);
+    margin-right: 5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: var(--fonte-secundaria);
+    font-size: 22px;
+}
+
+.carrossel-texto-receitas, .carrossel-texto-benta {
+    margin-right: 5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: var(--fonte-secundaria);
+    font-size: 22px;
+    color: var(--preto);
+}
+
+.mixes {
+    display: flex;
+    margin: 2em;
+}
+
+.mixes-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mixes-texto {
+    font-family: var(--fonte-secundaria);
+    color: var(--preto);
+}
+
+strong {
+    color: var(--cinza);
+}
+
+.filtro {
+    padding-left: 13em;
+}
+
+
+
+.swiper-secundario {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-right: 15em;
+    
+}
+
+.daily-mixes {
+    background: #C1E3FF;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.conteudo-carrossel-secundario {
+    display: flex;
+}
+
+.imagem-carrossel {
+    margin: 1em 1em;
+    width: 20%;
+}
+
+.carrossel-titulo-secundario {
+    font-size: 22px;
+    color: var(--preto);
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+
+.carrossel-texto-secundario {
+    text-align:left;
+    font-size: 12px;
+    margin-right: 1em;
+    padding: 0.5em 0;
+}
+
+.soundbar {
+    margin: 0em 3em;
+    width: 50%;
+}
+
+.play-pause {
+    display: flex;
+    padding: 1em 1em;
+}
+
+.imagem-sounds {
+    padding: 0 1em;
+    width: 30%;
+}
+
+.rosa {
+    width: 50%;
+    background-color: #FFF0C1;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
