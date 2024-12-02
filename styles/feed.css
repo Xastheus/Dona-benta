@@ -95,6 +95,7 @@ strong {
     margin: 2em 3em;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .feed-titulo {
