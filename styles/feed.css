@@ -273,9 +273,9 @@ footer {
 
 .rodape-texto, .rodape-texto-ex {
     text-decoration: none;
-    padding-top: 0em;
+    padding-top: 0.2em;
     color: var(--azul);
-    padding-right: 2.5em;
+    padding-right: 1em;
 }
 
 .rodape-texto-ex {
@@ -283,11 +283,13 @@ footer {
 }
 
 .imagem-rodape {
-    width: 50%;
+    width: 45%;
+    margin-left: 0.3em;
 }
 
 .imagem-rodape-ex {
-    width: 45%;
+    width: 40%;
+    margin-left: 0.6em;
 }
 
 .botao-download {
