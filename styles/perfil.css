@@ -1,0 +1,117 @@
+.banner {
+    display: flex;
+    background: var(--azul);
+    border: 80px solid var(--azul);
+    justify-content: center;
+}
+
+.banner-titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    text-align: center;
+    color: var(--branco);
+    padding-top: 2em;
+}
+
+.imagem-voltar {
+    padding-right: 5em; 
+}
+
+.imagem-bandeira {
+     padding-left: 5em;
+     padding-bottom: 5em;
+}
+
+
+.banner .perfil {
+    position: absolute;
+    top: 24%;
+    right: 70%;
+}
+
+.secao-perfil, .secao-salvas {
+    margin: 3em 2em;
+}
+
+.nome-simbolo {
+    display: flex;
+}
+
+.verificado {
+    padding-left: 0.4em;
+    padding-bottom: 0.2em;
+}
+
+.nome-perfil {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 0.5em;
+}
+
+.nome-paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    color: var(--preto);
+    padding-left: 1em;
+    padding-top: 0.3em;
+}
+
+strong {
+    color: #205EFF;
+}
+
+.lista-dados {
+    padding-top: 2em;
+    display: flex;
+    gap: 25px;
+}
+
+.dados-itens {
+    border-right: 1px solid var(--cinza);
+    padding: 0 1em;
+    font-family: var(--fonte-principal);
+}
+
+.dados-titulo {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.prisma {
+    padding-left: 0.4em;
+}
+
+.dados-paragrafo {
+    font-size: 12px;
+    color: var(--cinza);
+    text-align: center;
+    padding-top: 0.7em;
+}
+
+.salvas-titulo {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.imagens-salvas {
+    display: flex;
+    gap: 10px;
+    padding: 1em 0;
+}
+
+.imagem-descricao {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    color: var(--preto);
+    margin-right: 1em;
+}
+
+.imagens-receitas {
+    width: 90%;
+    padding: 0.6em 0;
+}
