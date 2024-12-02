@@ -107,7 +107,6 @@ strong {
 
 .imagens-feed {
     display: flex;
-    position: relative;
     flex-direction: column;
     justify-self: center;
     width: 80%;
