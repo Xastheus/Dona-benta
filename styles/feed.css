@@ -117,6 +117,7 @@ strong {
 .imagem-receita {
     padding: 1em 0;
     width: 100%;
+    align-items: center;
 }
 
 .imagens-feed .imagem-texto {
