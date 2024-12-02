@@ -84,8 +84,101 @@ strong {
     color: var(--cinza);
 }
 
+
 .filtro {
-    padding-left: 13em;
+    width: 5%;
+}
+
+.feed {
+    font-family: var(--fonte-secundaria);
+    color: var(--cinza);
+    margin: 2em 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-titulo {
+    font-size: 30px;
+}
+
+.receitas {
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.imagens-feed {
+    display: block;
+    position: relative;
+    flex-direction: column;
+    justify-self: center;
+    width: 80%;
+}
+
+.imagem-receita {
+    padding: 1em 0;
+}
+
+.imagens-feed .imagem-texto {
+    position: absolute;
+    bottom: 55.3%;
+    height: 18vw;
+    background-color: var(--azul);
+    opacity: 74%;
+    width: 97%;
+    text-align: left;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+}
+
+.imagem-texto {
+    border: 10px solid var(--azul);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: var(--branco);
+}
+
+.receita-titulo {
+    margin-right: 11em;
+}
+
+.imagem-postado {
+    font-size: 10px;
+    padding-top: 0.5em;
+}
+
+.icones {
+    display: flex;
+    justify-content: right;
+    padding-right: 1.5em;
+}
+
+.quadrado {
+    padding-bottom: 0.7em;
+    padding-right: 1em;
+}
+
+.coracao {
+    padding-right: 0.2em;
+    padding-bottom: 0.9em;
+}
+
+.imagens-feed .imagem-texto-torta {
+    position: absolute;
+    bottom: 3.4%;
+    height: 18vw;
+    background-color: #F7E853;
+    opacity: 74%;
+    width: 97%;
+    text-align: left;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+}
+
+.imagem-texto-torta {
+    border: 10px solid #F7E853;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: var(--preto);
 }
 
 
@@ -150,12 +243,18 @@ strong {
 
 .rodape {
     display: flex;
-    margin-top: 5em;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    background: var(--branco);
+    width: 100%;
+    border-top: 25px solid var(--branco);
 }
 
 .botoes-lista {
     display: flex;
     padding-left: 2em;
+    padding-bottom: 1em;
 }
 
 .botao {
