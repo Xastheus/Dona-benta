@@ -107,7 +107,7 @@ strong {
 }
 
 .imagens-feed {
-    display: block;
+    display: flex;
     position: relative;
     flex-direction: column;
     justify-self: center;
@@ -117,7 +117,7 @@ strong {
 .imagem-receita {
     padding: 1em 0;
     width: 100%;
-    align-items: center;
+    justify-content: center;
 }
 
 .imagens-feed .imagem-texto {
