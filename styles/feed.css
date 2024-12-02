@@ -107,15 +107,17 @@ strong {
 
 .imagens-feed {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-self: center;
     width: 80%;
 }
 
 .imagem-receita {
+    display: flex;
+    align-self: center;
     padding: 1em 0;
     width: 100%;
-    justify-content: center;
 }
 
 .imagens-feed .imagem-texto {
