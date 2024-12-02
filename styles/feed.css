@@ -128,8 +128,7 @@ strong {
 
 .imagens-feed .imagem-texto {
     position: absolute;
-    bottom: 55.3%;
-    height: 18vw;
+    bottom: 54.7%;
     background-color: var(--azul);
     opacity: 74%;
     width: 100%;
@@ -172,11 +171,10 @@ strong {
 
 .imagens-feed .imagem-texto-torta {
     position: absolute;
-    bottom: 3.4%;
-    height: 13%;
+    bottom: 2.5%;
     background-color: #F7E853;
     opacity: 74%;
-    width: 97%;
+    width: 100%;
     text-align: left;
     font-family: var(--fonte-secundaria);
     font-size: 14px;
