@@ -88,6 +88,11 @@ strong {
     width: 5%;
 }
 
+.feed-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .feed {
     font-family: var(--fonte-secundaria);
     color: var(--cinza);
