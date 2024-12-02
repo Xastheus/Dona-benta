@@ -8,8 +8,46 @@
     color: var(--preto);
 }
 
+.cabecalho__menu {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assests/Menu\ Dona\ Benta.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    height: 18%;
+    z-index: 1000;
+    background-color: var(--branco);
+    border-radius: 16px;
+
+}
+.lista-menu__item {
+    padding: 0.6em 0;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--azul);
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.container__botao {
+    display: none;
+}
+
 .swiper {
-    display: flex;
+    display: block;
     width: 80%;
 }
 

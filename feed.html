@@ -11,12 +11,31 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img src="assests/Menu Dona Benta.svg" alt="Menu">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Meu perfil</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Minhas receitas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Configurações</a>
+                </li>
+                </ul>
+                </div>
+
+        <!-- <img src="assests/Menu Dona Benta.svg" alt="Menu"> -->
         <h2>Início</h2>
         <img src="assests/Lupa Dona Benta.svg" alt="ícone de Lupa">
     </header>
         
-      <div class="swiper">
+<section>
+    <div class="swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -38,7 +57,8 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
-        </div> 
+        </div>
+    </section> 
 
         <section class="feed-container">
             <div class="feed">
