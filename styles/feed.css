@@ -164,8 +164,8 @@ strong {
 
 .imagens-feed .imagem-texto-torta {
     position: absolute;
-    bottom: 3.4%;
-    height: 18vw;
+    bottom: 3.4vw;
+    height: 18%;
     background-color: #F7E853;
     opacity: 74%;
     width: 97%;
@@ -248,7 +248,6 @@ strong {
     left: 0;
     background: var(--branco);
     width: 100%;
-    border-top: 25px solid var(--branco);
 }
 
 .botoes-lista {
