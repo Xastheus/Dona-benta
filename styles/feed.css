@@ -164,8 +164,8 @@ strong {
 
 .imagens-feed .imagem-texto-torta {
     position: absolute;
-    bottom: 3.4vw;
-    height: 18%;
+    bottom: 3.4%;
+    height: 13%;
     background-color: #F7E853;
     opacity: 74%;
     width: 97%;
@@ -243,7 +243,7 @@ strong {
 
 .rodape {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0%;
     left: 0;
     background: var(--branco);
