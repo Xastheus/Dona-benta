@@ -110,14 +110,14 @@ strong {
     position: relative;
     flex-direction: column;
     justify-self: center;
-    width: 80%;
+    width: 90%;
 }
 
 .imagem-receita {
     display: flex;
     align-self: center;
     padding: 1em 0;
-    width: 80%;
+    width: 100%;
 }
 
 .imagens-feed .imagem-texto {
@@ -126,7 +126,7 @@ strong {
     height: 18vw;
     background-color: var(--azul);
     opacity: 74%;
-    width: 97%;
+    width: 100%;
     text-align: left;
     font-family: var(--fonte-secundaria);
     font-size: 14px;
