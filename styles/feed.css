@@ -265,7 +265,7 @@ strong {
 
 .rodape-texto, .rodape-texto-ex {
     text-decoration: none;
-    padding-top: 0.4em;
+    padding-top: 0em;
     color: var(--azul);
 }
 
@@ -284,7 +284,8 @@ strong {
 button {
     border: 1px solid var(--azul);
     border-radius: 16px;
-    border-width: 3vw;
+    width: 100%;
+    height: 10vw;
     font-family: var(--fonte-secundaria);
     background: var(--azul);
     font-size: 16px;
