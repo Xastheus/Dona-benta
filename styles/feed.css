@@ -94,7 +94,6 @@ strong {
     margin: 2em 3em;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .feed-titulo {
@@ -116,9 +115,9 @@ strong {
 
 .imagem-receita {
     display: flex;
-    justify-self: center;
+    align-self: center;
     padding: 1em 0;
-    width: 100%;
+    width: 50%;
 }
 
 .imagens-feed .imagem-texto {
