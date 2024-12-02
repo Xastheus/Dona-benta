@@ -96,7 +96,7 @@ strong {
 .feed {
     font-family: var(--fonte-secundaria);
     color: var(--cinza);
-    margin: 2em 3em;
+    margin: 2em 2em;
     display: flex;
     flex-direction: column;
 }
@@ -115,7 +115,7 @@ strong {
     position: relative;
     flex-direction: column;
     justify-self: center;
-    width: 90%;
+    width: 80%;
     margin: 0 2em;
 }
 
