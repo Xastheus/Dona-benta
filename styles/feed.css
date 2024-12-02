@@ -267,7 +267,7 @@ strong {
 .botao {
     display: flex;
     flex-direction: column;
-    padding: 0 1.5em;
+    padding: 0 1em;
     
 }
 
@@ -275,6 +275,7 @@ strong {
     text-decoration: none;
     padding-top: 0em;
     color: var(--azul);
+    padding-right: 2.5em;
 }
 
 .rodape-texto-ex {
