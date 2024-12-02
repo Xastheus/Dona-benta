@@ -111,6 +111,7 @@ strong {
     flex-direction: column;
     justify-self: center;
     width: 90%;
+    margin: 0 2em;
 }
 
 .imagem-receita {
