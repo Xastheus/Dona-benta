@@ -118,6 +118,88 @@
     font-size: 30px;
 }
 
+
+/* .filtro-imagem {
+    padding-left: 4.5em;
+} */
+
+.container__rotulo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.filtro__menu {
+    background-image: url("../assests/Filter.svg");
+    width: 24px;
+    height: 24px;
+    background-position: right;
+    display: flex;
+    flex-direction: row-reverse;
+    background-repeat: no-repeat;
+}
+
+.lista-filtro {
+    display: none;
+    justify-self: right;
+    background-color: var(--branco);
+    border-radius: 26px;
+    width: 100%;
+}
+
+.lista-filtro-titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 30px;
+    color: var(--cinza);
+    padding: 1em 0 0 0.8em;
+}
+
+.lista-filtro-subtitulo {
+    font-size: 30px;
+    font-family: var(--fonte-secundaria);
+    color: var(--preto);
+    padding: 0.2em 0 0 0.8em;
+
+}
+
+.lista-filtro__item {
+    padding: 0.4em;
+    margin-top: 1.5em;
+    display: flex;
+    justify-self: center;
+}
+ 
+.lista-filtro__link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    margin: 0em 0.7em;
+    border: 2px solid #F8F8F8;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    height: 2em;
+    padding: 0.5em 1em;
+
+}
+
+.botão-filtrar {
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    color: var(--branco);
+    font-weight: 100;
+    font-size: 14px;
+    border: 2px solid var(--azul);
+    border-radius: 16px;
+    background-color: var(--azul);
+    margin: 2em 6em;
+    padding: 1em 0;
+}
+
+.container__botao:checked ~ .lista-filtro {
+    display: block;
+}
+
+
 .receitas {
     color: var(--azul);
     font-weight: 600;
@@ -125,11 +207,11 @@
 
 .imagens-feed {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-direction: column;
     justify-self: center;
     width: 80%;
-    margin: 0 2em;
+    margin: 0em;
 }
 
 .imagem-receita {
@@ -141,7 +223,7 @@
 
 .imagens-feed .imagem-texto {
     position: absolute;
-    bottom: 54.7%;
+    bottom: 54.5%;
     background-color: var(--azul);
     opacity: 74%;
     width: 100%;
@@ -158,7 +240,7 @@
 }
 
 .receita-titulo {
-    margin-right: 11em;
+    margin-right: 8em;
 }
 
 .imagem-postado {
@@ -183,8 +265,8 @@
 }
 
 .imagens-feed .imagem-texto-torta {
-    position: absolute;
-    bottom: 2.5%;
+    position:absolute;
+    bottom: 2.8%;
     background-color: #F7E853;
     opacity: 74%;
     width: 100%;
