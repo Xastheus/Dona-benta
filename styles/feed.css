@@ -23,7 +23,7 @@
     top: 10%;
     width: 40%;
     height: 18%;
-    /* z-index: 1000; */
+    z-index: 1000;
     background-color: var(--branco);
     border-radius: 16px;
 
