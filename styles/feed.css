@@ -218,9 +218,9 @@ body {
     border: 2px solid var(--azul);
     border-radius: 16px;
     background-color: var(--azul);
-    padding: 1em;
+    padding: 1em 2em;
     text-decoration: none;
-    margin: 0 5em;
+    height: 3em;
 }
 
 .container__botao:checked ~ .lista-filtro {
