@@ -221,6 +221,7 @@ body {
     padding: 1em 2em;
     text-decoration: none;
     height: 3em;
+    margin: 0 6em;
 }
 
 .container__botao:checked ~ .lista-filtro {
