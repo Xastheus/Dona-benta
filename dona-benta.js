@@ -36,6 +36,7 @@ window.addEventListener('load', () => {
         document.getElementById('feed-paragrafo').style.opacity = "1";
         document.getElementById('imagem-texto-dois').style.opacity = "0.8";
         document.getElementById('imagens-feed').style.opacity = "1";
+        document.getElementById('footer').style.opacity = "1";
       };
   })
 
