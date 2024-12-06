@@ -1,0 +1,90 @@
+body {
+    background-color: var(--azul);
+}
+
+.icone-voltar {
+    margin: 2em;
+}
+
+
+.match-titulo {
+    font-family: var(--fonte-secundaria);
+    color: var(--branco);
+    font-size: 24px;
+    text-align: center;
+}
+
+.imagens-match {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.texto-imagens {
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    color: var(--branco);
+
+}
+
+.texto-nome {
+    font-size: 36px;
+    padding-top: 0.5em;
+}
+
+.texto-paragrafo {
+    font-size: 22px;
+    margin: 0.5em 4em;
+}
+
+.icones-match {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    padding: 1em 0;
+}
+
+.icones-texto {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    color: var(--branco);
+    gap: 23px;
+    padding-left: 1em;
+}
+
+.titulo-card {
+    margin: 1em 0;
+}
+
+.amanda {
+    margin: 4em 1em;
+    font-family: var(--fonte-secundaria);
+    font-size: 22px;
+    color: var(--branco);
+}
+
+.card-amanda {
+    padding: 1em;
+    display: flex;
+    gap: 20px;
+    border: 2px solid #5854A3;
+    border-radius: 26px;
+    background-color: #5854A3;
+}
+
+.nome-amanda {
+    font-size: 14px;
+    padding-top: 1em;
+}
+
+.descricao-amanda {
+    padding: 0.5em 0;
+    font-size: 12px;
+    margin-right: 1.5em;
+}
+
+.texto-card {
+    display: flex;
+    flex-direction: column;
+}

@@ -205,7 +205,6 @@ body {
 }
 
 .botão-filtrar {
-    text-align: center;
     font-family: var(--fonte-secundaria);
     color: var(--branco);
     font-weight: 100;
@@ -213,8 +212,8 @@ body {
     border: 2px solid var(--azul);
     border-radius: 16px;
     background-color: var(--azul);
-    margin: 2em 6em; 
-    padding: 1em 0;
+    padding: 1em;
+    text-decoration: none;
 }
 
 .container__botao:checked ~ .lista-filtro {

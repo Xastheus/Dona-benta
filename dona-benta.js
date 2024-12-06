@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
           document.getElementById('feed-paragrafo').style.opacity = "0";
           document.getElementById('imagem-texto-dois').style.opacity = "0.6";
           document.getElementById('imagens-feed').style.opacity = "0.5";
-          document.getElementById('footer').style.opacity = "0.9";
+          document.getElementById('footer').style.opacity = "0";
       } else {
         document.body.style.backgroundColor = '';
         document.getElementById('cabecalho').style.opacity = '1';
