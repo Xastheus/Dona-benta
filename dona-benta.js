@@ -20,9 +20,9 @@ window.addEventListener('load', () => {
   document.getElementById ('filtro').addEventListener('change', function () {
       if(this.checked) {
         document.body.style.backgroundColor = 'black';
-        document.body.style.background.opacity = '0.2';
-          document.getElementById('cabecalho').style.opacity = '0.5';
-          document.getElementById('swiper').style.opacity = "0.2";
+        document.body.style.background.opacity = '0.9';
+          document.getElementById('cabecalho').style.opacity = '0.9';
+          document.getElementById('swiper').style.opacity = "0.9";
           document.getElementById('feed-titulo').style.opacity = "0";
           document.getElementById('feed-paragrafo').style.opacity = "0";
           document.getElementById('imagem-texto-dois').style.opacity = "0.6";
