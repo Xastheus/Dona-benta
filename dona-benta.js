@@ -40,3 +40,12 @@ window.addEventListener('load', () => {
       };
   })
 
+  const textosFiltro = document.querySelectorAll(".lista-filtro__link");
+
+  textosFiltro.forEach(text => {
+    text.addEventListener("click", () => {
+
+            text.classList.toggle("persisted-focus");
+    });
+  });
+

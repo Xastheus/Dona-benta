@@ -204,6 +204,11 @@ body {
 
 }
 
+.lista-filtro__link.persisted-focus {
+    border: 2px solid var(--azul);
+    color: var(--azul);
+}
+
 .botão-filtrar {
     font-family: var(--fonte-secundaria);
     color: var(--branco);
