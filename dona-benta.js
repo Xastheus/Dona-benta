@@ -34,10 +34,8 @@ window.addEventListener('load', () => {
         document.getElementById('swiper').style.opacity = "1";
         document.getElementById('feed-titulo').style.opacity = "1";
         document.getElementById('feed-paragrafo').style.opacity = "1";
-        document.getElementById('imagem-texto').style.opacity = "1";
-        document.getElementById('imagem-texto-dois').style.opacity = "1";
-        document.getElementById('icones').style.opacity = "1";
-        document.getElementById('icones-dois').style.opacity = "1";
+        document.getElementById('imagem-texto-dois').style.opacity = "0.8";
+        document.getElementById('imagens-feed').style.opacity = "1";
       };
   })
 
