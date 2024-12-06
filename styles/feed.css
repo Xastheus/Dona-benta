@@ -219,6 +219,7 @@ body {
     background-color: var(--azul);
     padding: 1em;
     text-decoration: none;
+    text-align: center;
 }
 
 .container__botao:checked ~ .lista-filtro {
