@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/feed.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header id="cabecalho" class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu" class="container__rotulo">
@@ -33,7 +33,7 @@
         <img src="assests/Lupa Dona Benta.svg" alt="ícone de Lupa">
     </header>
         
-<section>
+<section id="swiper">
     <div class="swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
@@ -75,12 +75,12 @@
                     <!-- </div> -->
 
                     <input type="checkbox" id="filtro" class="container__botao">
-                    <label for="filtro" class="container__rotulo"><h2 class="feed-titulo">Feed <strong class="receitas">Receitas</strong></h2>
+                    <label for="filtro" class="container__rotulo"><h2 id="feed-titulo" class="feed-titulo">Feed <strong class="receitas">Receitas</strong></h2>
                         <span class="filtro__menu"></span>
                     </label>
-                    <p class="paragrafo-feed">Atualizado diariamente</p>
+                    <p id="feed-paragrafo" class="paragrafo-feed">Atualizado diariamente</p>
                     
-                    <ul class="lista-filtro">
+                    <ul id="lista-feed" class="lista-filtro">
                         <li>
                             <h2 class="lista-filtro-titulo">Filtro</h2>
                             <h2 class="lista-filtro-subtitulo">Gostos Gerais</h2>
@@ -116,28 +116,29 @@
                         </ul>
             </div> 
             
-            <div class="imagens-feed">
+            <div id="imagens-feed" class="imagens-feed">
                 <img class="imagem-receita" src="imgs-feed/bolo de chocolate com frutas.svg" alt="bolo de chocolate com frutas vermelhas">
-                <div class="imagem-texto">
+                <div id="imagem-texto" class="imagem-texto">
                     <p class="receita-titulo">Bolo de chocolate 
                     com frutas vermelhas</p>
                     <p class="imagem-postado">Postado há 01 hora</p>
-                    <div class="icones">
+                    <div id="imagem-icones" class="icones">
                         <img class="quadrado" src="imgs-feed/Icon.svg" alt="ícone">
                         <img class="coracao" src="imgs-feed/Icon heart.svg" alt="ícone de coração">157
                     </div>
                 </div>
                 <img class="imagem-receita" src="imgs-feed/tortellini ao sugo gratinado.svg" alt="tortellini ao sugo gratinado">
-                <div class="imagem-texto-torta">
+                <div id="imagem-texto-dois" class="imagem-texto-torta">
                     <p class="receita-titulo">Tortellini ao sugo gratinado</p>
                     <p class="imagem-postado">Postado há 01 hora</p>
-                    <div class="icones">
+                    <div id="icones-dois" class="icones">
                         <img class="quadrado" src="imgs-feed/Icon black.svg" alt="ícone">
                         <img class="coracao" src="imgs-feed/Icon heart black.svg" alt="ícone de coração">157
                     </div>
                 </div>
                 
             </div>
+
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

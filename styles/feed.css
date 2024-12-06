@@ -1,3 +1,7 @@
+body {
+    background-color: var(--branco);
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -147,6 +151,12 @@
     margin-left: 6em;
 }
 
+.container__botao:checked ~ .container__rotulo > .filtro__menu {
+    background-image: url('../assests/Filter\ branco.svg');
+    background-color: var(--azul);
+    border-radius: 5px;
+}
+
 .lista-filtro {
     display: none;
     justify-self: right;
@@ -209,6 +219,10 @@
 
 .container__botao:checked ~ .lista-filtro {
     display: block;
+}
+
+.container__botao:checked ~ body {
+    background-color: var(--azul);
 }
 
 
