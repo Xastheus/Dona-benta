@@ -210,9 +210,12 @@ body {
     color: var(--azul);
 }
 
-.botão-filtrar {
+.lista-filtro__botao {
     display: flex;
     justify-content: center;
+}
+
+.botão-filtrar {
     font-family: var(--fonte-secundaria);
     color: var(--branco);
     font-weight: 100;
