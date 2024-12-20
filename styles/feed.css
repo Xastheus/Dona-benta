@@ -211,6 +211,8 @@ body {
 }
 
 .botão-filtrar {
+    display: flex;
+    justify-content: center;
     font-family: var(--fonte-secundaria);
     color: var(--branco);
     font-weight: 100;
