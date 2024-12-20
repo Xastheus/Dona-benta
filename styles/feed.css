@@ -162,9 +162,10 @@ body {
     justify-self: right;
     background-color: var(--branco);
     border-radius: 26px;
-    width: 100%;
+    width: 90%;
     z-index: 1000;
-    position: relative;
+    position: absolute;
+    margin: 0;
 }
 
 .lista-filtro-titulo {
@@ -247,13 +248,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 3em;
+    padding-top: 2.5em;
 }
 
 .imagem-receita {
-    display: flex;
-    justify-content: center;
     padding: 1em 0;
+
 }
 
 footer {
